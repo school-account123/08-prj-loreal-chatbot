@@ -7,8 +7,9 @@
 
 /* —— body + fonts —— */
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  color: #333;
+  font-family: "Avant Garde", Helvetica, arial, sans-serif;
+  color: #000;
+  background: #fff;
   display: flex;
   justify-content: center;
 }
@@ -24,10 +25,20 @@ body {
   padding-top: 50px;
 }
 
+.brand-logo {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .site-title {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 10px;
+  color: #000;
 }
 
 /* chat window */
@@ -42,7 +53,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   overflow-y: auto;
-  background: #fafafa;
+  background: #fff;
   white-space: pre-line;
 }
 
@@ -57,7 +68,7 @@ body {
 }
 
 .msg.ai {
-  color: #666666;
+  color: #000;
 }
 
 /* input row */
@@ -70,7 +81,7 @@ body {
 .chat-form input {
   flex: 1;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   font-size: 18px;
 }
 
@@ -99,7 +110,7 @@ body {
 }
 
 .chat-form button:hover {
-  background: #666666;
+  background: #333;
 }
 
 .chat-form button:focus {
@@ -125,7 +136,7 @@ body {
   margin: 60px 0 40px;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: #000;
 }
 
 .site-footer nav {
@@ -139,5 +150,5 @@ body {
 }
 
 .site-footer a:hover {
-  color: #666666;
+  color: #333;
 }
