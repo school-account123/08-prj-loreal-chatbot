@@ -9,6 +9,16 @@ L’Oréal is exploring the power of AI, and your job is to showcase what's poss
 
 ## ☁️ Cloudflare Note
 
-When deploying through Cloudflare, make sure your API request body (in `script.js`) includes a `messages` array and handle the response by extracting `data.choices[0].message.content`.
+When deploying through Cloudflare, make sure your API request body (in `script.js`) includes a `messages` array and sends `Content-Type: application/json`.
+
+Example request body:
+
+```json
+{
+  "messages": [{ "role": "user", "content": "Hello" }]
+}
+```
+
+Then handle the response by extracting `data.choices[0].message.content`.
 
 Enjoy building your L’Oréal beauty assistant! 💄
